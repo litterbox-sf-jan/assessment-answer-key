@@ -133,10 +133,6 @@ Undefined means a variable has been declared but has not yet been assigned a val
 
 Because Douglas Crockford said so. Also, it's essential to check for type as well as equality to reduce any chance of making mistakes. 
 
-#### In chrome developer tools, how might you inspect the data sent to the server from a form?
-
-The Network tab
-
 #### What does the 'self' keyword do in ruby? Why is it important? Talk about "implicit self" 
 
 #### What are the two ways to print out the word "Elie" given the following JavaScript object: var person =  {name: "Elie"}
