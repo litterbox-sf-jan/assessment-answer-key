@@ -13,14 +13,9 @@ function capitalize(string){
 }
 
 function titleize(string){
-  var capitalizedArr = []
-  var wordArr = string.split(" ")
-  var capitalizedWord;
-  for (var i = 0; i < wordArr.length; i++) {
-    capitalizedWord = capitalize(wordArr[i]);
-    capitalizedArr.push(capitalizedWord);
-  };
-  return capitalizedArr;
+  return string.split(" ").map(function(data){
+   return capitalize(data)
+  });
 }
 
 function sampleAJAXPost(){
