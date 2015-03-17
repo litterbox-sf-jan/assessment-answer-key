@@ -9,7 +9,7 @@ function unique(arr){
 }
 
 function capitalize(string){
-  return string[0].toUpperCase() + string.slice(1,string.length).toLowerCase();
+  return string[0].toUpperCase() + string.slice(1).toLowerCase();
 }
 
 function titleize(string){
