@@ -1,11 +1,10 @@
-function unique(arr){
-  var newArr = []
-  arr.forEach(function(item){
-    if(newArr.indexOf(item) === -1){
-      newArr.push(item);
+function unique(arr) {
+  return arr.reduce(function(uniqueArr, value){
+    if (uniqueArr.indexOf(value) === -1) {
+      uniqueArr.push(value);
     }
-  })
-  return newArr
+    return uniqueArr;
+  }, []);
 }
 
 function capitalize(string){
