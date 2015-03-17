@@ -29,8 +29,7 @@ GA WDI 16 Assessment
     * A remote is another copy of a git repository that you have a
     connection to. Or, "Remote repositories are versions of your
     project that are hosted on the Internet or network somewhere." We
-    can `pull` code from remote repositories and `push` code to them
-    as well.
+    can `pull` code from remote repositories and `push` code to them.
 
 7. What two attributes determine where a `<form>` tag sends its data
 upon submission and whether it is a GET or POST request?
@@ -42,7 +41,7 @@ the server from a form?
 
     * The network tab, fool. You open up developer tools
     (command+option+i), then click on the Network tab. (You have to do
-    this *before* to submit the form). When you submit the form and
+    this *before* you submit the form). When you submit the form and
     the page refreshes, you should see that the first request in the
     Network tab will have `POST` as its Method. If you click on the
     request you should see a section under "Headers" called "Form
@@ -56,11 +55,11 @@ would use it.
 10. What is MVC, and how does it work in the context of Rails?
 
     * MVC stands for Model-View-Controller. It's an attempt to
-    separate the concerns of the data, the display of that data, and
-    controlling changes to the application. In Rails we see this as
-    creating a model to hold the data (such as `models/author.rb`), a
-    view to display the info to the user (such as
-    `view/authors/show.html.erb`), and a controller to handle the
+    separate the concerns of the data itself, the display of that
+    data, and controlling changes to the application. In Rails we see
+    this as creating a model to hold the data (such as
+    `models/author.rb`), a view to display the info to the user (such
+    as `view/authors/show.html.erb`), and a controller to handle the
     workflow (such as `controllers/authors_controller.rb`).
 
 11. What is RESTful routing in the context of rails?
