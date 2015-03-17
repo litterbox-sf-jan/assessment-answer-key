@@ -81,9 +81,8 @@ predictable pattern and use the correct verbs.
 Forking and cloning are actually very similar. Forking is a GitHub
 term that creates a copy of someone else's GitHub repo on your GitHub
 account. It actually uses cloning under the hood. Cloning is the
-process in Git of taking a remote Git repository and making a local
-copy of it.
-
+process in Git of taking a remote Git repository and making a copy of
+it.
 
 #### What does a foreign key do?
 
