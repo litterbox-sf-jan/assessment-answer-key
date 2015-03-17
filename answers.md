@@ -36,10 +36,11 @@ code from remote repositories and `push` code to them.
 
 The network tab, fool. You open up developer tools (command+option+i),
 then click on the Network tab. (You have to do this *before* you
-submit the form). When you submit the form andthe page refreshes, you
+submit the form). When you submit the form and the page refreshes, you
 should see that the first request in the Network tab will have `POST`
-as its Method. If you click on the request you should see a section
-under "Headers" called "Form Data".
+as its Method. If you click on the request, you should see a section
+under "Headers" called "Form Data". The data sent by the form will be
+shown underneath.
 
 #### What does the "data" attribute do? Give an example for when you would use it.
 
