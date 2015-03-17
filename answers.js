@@ -21,7 +21,7 @@ function sampleAJAXPost(){
   $.ajax({
       type: "POST",
       url: "/users.json",
-      data: {username: student},
+      data: {username: "student"},
       success: function(){
        console.log(""All Done!""),
       }
