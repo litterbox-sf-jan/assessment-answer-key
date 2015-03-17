@@ -70,13 +70,13 @@ would use it.
     operations on a resource (e.g., an Actor), the routes should have
     follow the predictable pattern and use the correct verbs.
 
-            actors GET    /actors              actors#index
-                   POST   /actors              actors#create
-         new_actor GET    /actors/new          actors#new
-        edit_actor GET    /actors/:id/edit     actors#edit
-             actor GET    /actors/:id          actors#show
-                   PUT    /actors/:id          actors#update
-                   DELETE /actors/:id          actors#destroy
+             GET    /actors            actors#index
+             POST   /actors            actors#create
+             GET    /actors/new        actors#new
+             GET    /actors/:id/edit   actors#edit
+             GET    /actors/:id        actors#show
+             PUT    /actors/:id        actors#update
+             DELETE /actors/:id        actors#destroy
 
 12. What command initializes an empty git repository?
 
