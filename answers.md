@@ -157,8 +157,8 @@ Because Douglas Crockford said so. Also, it's essential to check for type as wel
 
 #### What are the two ways to print out the word "Elie" given the following JavaScript object: var person =  {name: "Elie"}
 
-1 - person.name
-2 - person["name"]
+* `person.name`
+* `person["name"]`
 
 #### What is the difference between the jQuery methods .text() and .html()?
 
