@@ -119,7 +119,27 @@ arr.forEach(function(element, index) {
 
 #### What is the purpose of the .bind function in native JavaScript? Write a code sample demonstrating its purpose
 
-Grrrr.
+The `.bind` function, when invoked on another function, and passed a new `this` value, will return a new function, whose `this` is bound to the passed in `this`.
+
+```
+var student = {
+  name: 'Bob'
+}
+
+var instructor = {
+  name: 'Jane'
+}
+
+function sayHello() {
+  console.log("Hello", this.name);
+}
+
+var sayHelloToStudent = sayHello.bind(student);
+var sayHelloToInstructor = sayHello.bind(instructor);
+
+sayHelloToStudent();
+sayHelloToInstructor();
+```
 
 #### Name the 6 JS native types
 
