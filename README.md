@@ -2,4 +2,4 @@
 
 * Ruby: [answers.rb](answers.rb)
 * JS: [answers.js](answers.js)
-* Conceptual: [conceptual.md](coceptual.md)
+* Conceptual: [answers.md](answers.md)
